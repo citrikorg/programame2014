@@ -1,6 +1,5 @@
 import java.util.Scanner;
 import java.lang.String;
-import java.io.*;
 
 public class Lychrel {
 
