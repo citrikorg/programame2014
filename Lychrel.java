@@ -26,9 +26,11 @@ public class Lychrel {
 		if ( n < 1 || n > 100000){ //Limit de combres
 			System.out.println("ERROR");
 		}else{
+			
 			//Aki fem els calculs:
-			//1) Sumem nombres girats OK
-			//2) Agafem resultat i repetim fins a 1.000.000 com a nombre, LONG?
+			//1) Sumem nombres girats FET
+			//2) Agafem resultat i repetim fins a 1.000.000 com a nombre, LONG? No cal, int aguanta FET
+			
 			resultat = suma(entrada,(invertir(entrada)));
 			boolean lychrel = false;
 			int iteracions = 1;
@@ -72,5 +74,6 @@ public class Lychrel {
 
 		if (numero.compareTo(invertir(numero)) == 0) return true;
 		else return false;
+
 	}
 }
